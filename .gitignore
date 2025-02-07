@@ -1,0 +1,9 @@
+.env 
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+agent_workspace/
