@@ -1,7 +1,14 @@
-# All-Time High Swarms Agent API
+# All-Time-High Agent Engine Powered by Swarms
 
 ## Overview
-This project provides a RESTful API designed for the all-time-high project to create and interact with swarms agents. The API offers endpoints for creating agents and evaluating battles between agents by leveraging OpenAI's language models. The application uses Flask as the web framework and integrates with various modules to handle agent logic and battle evaluation.
+This project provides an AI Agent Engine designed for the all-time-high project, in order to support multiple agents orchestration. It offers endpoints for creating agents and evaluating battles between agents by leveraging state-of-the-art LLM models.
+
+This project is powered by [Swarms](https://github.com/kyegomez/swarms)
+
+## Architecture
+The Engine serves as a plugin into the All Time High project.
+
+![Architecture](./arch.png)
 
 ## Features
 - **Heartbeat Endpoint**: Test the availability of the API.
@@ -70,6 +77,7 @@ This project provides a RESTful API designed for the all-time-high project to cr
    ```
 
 ## Project Structure
+```
 ├── app
 │ ├── init.py # Initializes the Flask app and registers the API blueprint
 │ ├── api.py # Contains endpoints for creating agents and evaluating battles
